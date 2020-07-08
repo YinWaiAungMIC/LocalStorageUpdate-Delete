@@ -11,8 +11,8 @@ $(document).ready(function(){
 				
 
 				$.each(menuObjArray,function(i,v){
-					html+=`
-									<div class="col-md-4">
+					html+=`			
+									<div class="col-md-4" id="c">
 									<div class="card">
 									<div class="card-img-top">
 											<span class="price badge badge-dark badge-pill">${v.price}</span>
@@ -23,24 +23,22 @@ $(document).ready(function(){
 												
 											</div>
 											<div class="card-footer">
-												<button class="btn btn-outline-danger btn-block addtocart" data-id="1" data-name="${v.name}" data-price="${v.price}">Add to Cart</button>
+												<button class="btn btn-outline-danger btn-block addtocart" data-id="${i}" data-name="${v.name}" data-price="${v.price}">Add to Cart</button>
 											</div>
 										
 									</div>
-									</div>`
+									</div>
+									`
 									})
 				$('#menu').html(html);
-				$()
 
+			
 
 
 			}
 		})
 	}
-	$('tbody').on('click','.delete',function(){
-					var id=$(this).data('id');
-					console.log(id);
-				})
+	
 
 
 });

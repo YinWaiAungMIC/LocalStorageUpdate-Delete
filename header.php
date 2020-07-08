@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 	<script type="text/javascript" src="custom.js"></script>
 	<script type="text/javascript" src="menujs.js"></script>
+	<script type="text/javascript" src="localstorage.js"></script>
 	
 </head>
 <style type="text/css">

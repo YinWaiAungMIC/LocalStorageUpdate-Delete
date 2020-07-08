@@ -5,7 +5,7 @@
 		<div class="container text-white py-5">
 			<div class="row">
 				<div class="col-2 col-lg-1 py-2">
-					<img src="image/a1.jpg" class="img-fluid">
+					<img src="" class="img-fluid">
 				</div>
 				<div class="col-10 col-lg-11">
 					<h1>相撲寿司</h1>
@@ -45,7 +45,7 @@
 				</div>
 			</div>
 			
-			<!-- <div class="col-md-5" id="voucher-div">
+			<div class="col-md-5" id="voucher-div">
 				<div class="shadow-lg p-3 mb-5 bg-white rounded text-center ml-2">
 					<h4>Payment</h4>
 					<table class="table table-bordered text-left">
@@ -64,11 +64,17 @@
 					</table>
 				</div>
 			</div>
- -->
+			
+		</div>
+			
+
 
 		</div>
 
 	</div>
+
+	</div>
+	
 
 	<?php
 	require 'footer.php';
